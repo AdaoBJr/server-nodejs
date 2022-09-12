@@ -9,7 +9,7 @@ const startServer = () => {
   app.use(express.json());
 
   app.get('/', (_, response: Response) => {
-    response.send('Está é uma rota de exemplo');
+    response.send('Atualizando rota de exemplo');
   });
 
   app.listen(PORT, () => {
